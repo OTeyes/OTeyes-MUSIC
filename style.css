@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  background: #ff2fa5; /* розовый */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ff2fa5, #ffffff);
+  color: #222;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#portfolio .work {
+  margin-top: 20px;
+}
+
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
